@@ -62,12 +62,14 @@ actionSpeech = (speechText) => {
     case "help mij":
       alert("Valid speech commands: black,  reset, next page");
       break;
-      case "github":
-        window.open("https://github.com/coolevogel", "_self");
+    case "beer":
+    case "vogel":
+    case "github":
+      window.open("https://github.com/coolevogel", "_self");
+      break;
+    case "stoel":
+        window.open("https://www.ikea.com/nl/nl/p/ekenaset-fauteuil-hillared-antraciet-10429275/", "_self");
         break;
-        case "stoel":
-          window.open("https://www.ikea.com/nl/nl/p/ekenaset-fauteuil-hillared-antraciet-10429275/", "_self");
-          break;
     default:
       // do nothing yet
   }
